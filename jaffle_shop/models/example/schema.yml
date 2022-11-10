@@ -23,7 +23,7 @@ models:
   - name: customers
     description: "The customers dbt model"
     columns:
-      - name: id
+      - name: customer_id
         description: "The primary key for this table"
         tests:
           - unique
