@@ -19,3 +19,13 @@ models:
         tests:
           - unique
           - not_null
+
+  - name: customers
+    description: "The customers dbt model"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+
