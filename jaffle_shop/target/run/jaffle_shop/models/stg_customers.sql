@@ -1,0 +1,17 @@
+
+  
+    
+
+    create or replace table `dbt-learn-110922-01`.`dbt_db`.`stg_customers`
+    
+    
+    OPTIONS()
+    as (
+      select
+    id as customer_id,
+    first_name,
+    last_name
+
+from `dbt-tutorial`.jaffle_shop.customers
+    );
+  
