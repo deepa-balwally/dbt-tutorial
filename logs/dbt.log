@@ -61,3 +61,29 @@ Happy modeling!
 
 [0m15:57:52.867752 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc799679ca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc7996798e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc799679b20>]}
 [0m15:57:52.868005 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-11-10 17:38:33.074892 | 7dc1eba3-2d43-473c-bef7-f393a6064770 ==============================
+[0m17:38:33.074906 [info ] [MainThread]: Running with dbt=1.3.0
+[0m17:38:33.075315 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/deepa.balwally/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'postgres_dvdrental', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m17:38:33.075518 [debug] [MainThread]: Tracking: tracking
+[0m17:38:33.086135 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f70bbbc2430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f70bbbc2250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f70bbbc2190>]}
+[0m17:38:33.087246 [debug] [MainThread]: Starter project path: /home/deepa.balwally/.local/lib/python3.8/site-packages/dbt/include/starter_project
+[0m17:38:35.620019 [info ] [MainThread]: 
+Your new dbt project "postgres_dvdrental" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:38:35.620577 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f70bbc48100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f70ba3f94f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f70ba3f9100>]}
+[0m17:38:35.620857 [debug] [MainThread]: Flushing usage events
