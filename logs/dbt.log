@@ -1,0 +1,64 @@
+
+
+============================== 2022-11-11 13:28:44.040164 | 05174122-a9e6-4a28-b7e0-861956295235 ==============================
+[0m13:28:44.040178 [info ] [MainThread]: Running with dbt=1.3.0
+[0m13:28:44.040686 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/deepa.balwally/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'jaffle_shop', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m13:28:44.040841 [debug] [MainThread]: Tracking: tracking
+[0m13:28:44.051591 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f121203b970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f121203ba30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f121203bbb0>]}
+[0m13:28:44.052691 [info ] [MainThread]: A project called jaffle_shop already exists here.
+[0m13:28:44.053109 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f121203bdc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f121203bdf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f121203bbb0>]}
+[0m13:28:44.053321 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-11-11 13:30:03.137662 | 6fcd4f97-318f-4fed-bbd9-1e791b917faf ==============================
+[0m13:30:03.137676 [info ] [MainThread]: Running with dbt=1.3.0
+[0m13:30:03.138151 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/deepa.balwally/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'j_s', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m13:30:03.138349 [debug] [MainThread]: Tracking: tracking
+[0m13:30:03.149008 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f05e108a880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f05e108a970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f05e108aac0>]}
+[0m13:30:03.150242 [debug] [MainThread]: Starter project path: /home/deepa.balwally/.local/lib/python3.8/site-packages/dbt/include/starter_project
+[0m13:31:18.305213 [info ] [MainThread]: Profile j_s written to /home/deepa.balwally/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m13:31:18.305643 [info ] [MainThread]: 
+Your new dbt project "j_s" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m13:31:18.306080 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f05e108ac70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f05e108aeb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f05e108aac0>]}
+[0m13:31:18.306333 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-11-11 21:38:42.617716 | cae9732c-0a76-42cc-86b0-24918bdced33 ==============================
+[0m21:38:42.617730 [info ] [MainThread]: Running with dbt=1.3.0
+[0m21:38:42.618277 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/deepa.balwally/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'j_s', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m21:38:42.618425 [debug] [MainThread]: Tracking: tracking
+[0m21:38:42.629024 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb189c37b20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb189c37d30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb189c37e20>]}
+[0m21:38:42.630210 [debug] [MainThread]: Starter project path: /home/deepa.balwally/.local/lib/python3.8/site-packages/dbt/include/starter_project
+[0m21:39:36.946369 [info ] [MainThread]: Profile j_s written to /home/deepa.balwally/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m21:39:36.946781 [info ] [MainThread]: 
+Your new dbt project "j_s" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:39:36.947196 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb189c37d30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb189c37ca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb189c37e20>]}
+[0m21:39:36.947445 [debug] [MainThread]: Flushing usage events
