@@ -2,20 +2,13 @@
     
     
 
-with dbt_test__target as (
-
-  select customer_id as unique_field
-  from `dbt-learn-bq-user`.`jaffle_shop`.`customers`
-  where customer_id is not null
-
-)
-
 select
-    unique_field,
+    customer_id as unique_field,
     count(*) as n_records
 
-from dbt_test__target
-group by unique_field
+from "jaffle_shop"."dbt_jafsho"."customers"
+where customer_id is not null
+group by customer_id
 having count(*) > 1
 
 
