@@ -21,4 +21,5 @@ models:
     columns:
       - name: __hevo__ingested_at
         description: "Timestamp of when the country's data was ingested by HEVO"
-
+        tests:
+          - not_null
